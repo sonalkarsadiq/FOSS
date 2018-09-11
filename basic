@@ -1,0 +1,14 @@
+#include <stdio.h>
+ 
+void my_function();  // Declaring a function
+ 
+main()
+{
+  printf("Main function.\n");
+ 
+  my_function();  // Calling the function
+ 
+  printf("Back in function main.\n");
+ 
+  return 0;
+}
